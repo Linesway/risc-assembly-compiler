@@ -1,8 +1,8 @@
-# MIPS32 Compiler
+# RISC Assembly Compiler
 
-[![CI](https://github.com/Linesway/mips32-compiler/actions/workflows/ci.yml/badge.svg)](https://github.com/Linesway/mips32-compiler/actions/workflows/ci.yml)
+[![CI](https://github.com/Linesway/risc-assembly-compiler/actions/workflows/ci.yml/badge.svg)](https://github.com/Linesway/risc-assembly-compiler/actions/workflows/ci.yml)
 
-A Scala 3 compiler that turns a small typed language with nested procedures and closures into 32-bit MIPS machine code. It scans and parses source code, checks types, and generates executable instructions. The source language is called Lacs; the repository also includes a MIPS interpreter, assembler, debugger, and garbage collector.
+A Scala 3 compiler and assembler targeting the 32-bit MIPS RISC instruction set. The compiler scans, parses, and type-checks a small language with nested procedures and closures, then generates machine code. The source language is called Lacs; the repository also includes a MIPS interpreter, debugger, and garbage collector.
 
 ## Requirements
 
