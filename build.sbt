@@ -1,6 +1,6 @@
 scalaVersion := "3.3.6"
 
-name := "standalone-compiler"
+name := "mips32-compiler"
 
 libraryDependencies += "org.scalatest" % "scalatest_3" % "3.2.19" % "test"
 

@@ -1,8 +1,8 @@
-# Lacs compiler
+# MIPS32 Compiler
 
-[![CI](https://github.com/Linesway/lacs-compiler/actions/workflows/ci.yml/badge.svg)](https://github.com/Linesway/lacs-compiler/actions/workflows/ci.yml)
+[![CI](https://github.com/Linesway/mips32-compiler/actions/workflows/ci.yml/badge.svg)](https://github.com/Linesway/mips32-compiler/actions/workflows/ci.yml)
 
-A Scala 3 compiler for Lacs, a small typed language with nested procedures and closures. It scans and parses source code, checks types, and produces 32-bit MIPS machine code. The project also includes a MIPS interpreter, assembler, debugger, and garbage collector.
+A Scala 3 compiler that turns a small typed language with nested procedures and closures into 32-bit MIPS machine code. It scans and parses source code, checks types, and generates executable instructions. The source language is called Lacs; the repository also includes a MIPS interpreter, assembler, debugger, and garbage collector.
 
 ## Requirements
 
